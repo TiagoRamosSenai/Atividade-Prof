@@ -1,0 +1,47 @@
+# Requisitos de infraestrutura para o sistema desenvolvido
+
+## 1. Sistema de Gestão de Base de Dados (SGBD)
+- SGBD**: MySQL
+- Versão**: 8.0 ou superior
+
+Justificação: O sistema utiliza a sintaxe específica do MySQL nas suas consultas à base de dados. O MySQL 8.0 é uma versão estável e amplamente utilizada que suporta todos os recursos exigidos pelo aplicativo.
+
+## 2. Servidor de aplicação / Sistema operativo
+- Servidor Web**: Apache
+- Versão**: 2.4 ou superior
+- Sistema Operativo**: Qualquer sistema operativo que suporte PHP e MySQL, tais como:
+- Linux (Ubuntu 20.04 LTS ou mais recente)
+- Windows Server 2019 ou mais recente
+- macOS 10.15 (Catalina) ou mais recente
+
+Justificação: O Apache é um servidor web amplamente utilizado que funciona bem com aplicações PHP. O sistema não tem nenhum requisito específico de sistema operacional, portanto, qualquer sistema operacional moderno que possa executar PHP e MySQL será adequado.
+
+## 3. Linguagem de programação
+- Linguagem**: PHP
+- Versão**: 7.4 ou superior (PHP 8.0+ recomendado para melhor desempenho e caraterísticas de segurança)
+
+Justificação: O sistema é desenvolvido com PHP. A versão 7.4 é a versão mínima recomendada, mas o PHP 8.0 ou mais recente proporcionaria melhor desempenho e recursos de segurança.
+
+## 4. Requisitos adicionais de software
+- Extensões de PHP**:
+- mysqli (para conetividade com a base de dados MySQL)
+- session (para gestão de sessões de utilizadores)
+- Navegador Web**: Qualquer navegador web moderno (Chrome, Firefox, Safari, Edge)
+
+## 5. Hardware Requirements
+- **Processor**: Dual-core processor, 2GHz or higher
+- **RAM**: Minimum 4GB, 8GB or more recommended
+- **Storage**: At least 20GB of free disk space
+
+## 6. Network Requirements
+- **Internet Connection**: Broadband internet connection for server accessibility
+- **Firewall**: Configured to allow HTTP (port 80) and HTTPS (port 443) traffic
+
+## 7. Security Requirements
+- SSL Certificate for HTTPS encryption
+- Regular system and software updates
+- Proper user authentication and authorization mechanisms
+
+## 8. Backup and Recovery
+- Regular database backups
+- Backup storage in a separate physical location or cloud storage
